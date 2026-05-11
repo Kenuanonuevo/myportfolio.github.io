@@ -237,7 +237,7 @@ ul {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url('Wallpaper1.png') center/cover no-repeat;
+  background: url('wallpaper.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-between;
