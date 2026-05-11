@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>Kenu Añonuevo | Computer Engineering Student</title>
+  <meta name="description" content="Personal portfolio of Kenu Añonuevo, a Computer Engineering student from Bicol University aspiring to be a Network Engineer, Programmer, and more.">
+  <meta name="keywords" content="Kenu Añonuevo, portfolio, computer engineering, Bicol University, web developer, network engineer">
+  <meta name="author" content="Kenu Añonuevo">
+
+  <!-- Open Graph Tags (for link previews on social media) -->
+  <meta property="og:title" content="Kenu Añonuevo | Portfolio">
+  <meta property="og:description" content="Computer Engineering student from Bicol University. Aspiring Network Engineer & Programmer.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com">
+  <meta property="og:image" content="https://yourdomain.com/preview.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kenu Añonuevo | Portfolio">
+  <meta name="twitter:description" content="Computer Engineering student from Bicol University.">
+
+  <!-- Favicon (replace with your own icon file) -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Google Fonts: Poppins (was referenced in CSS but never imported) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Boxicons for social & skill icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Typed.js for the typing animation -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="header" role="banner">
+    <a href="#home" class="logo" aria-label="Go to top">Kenu<span>.</span></a>
+
+    <!-- Hamburger button for mobile -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+      <a href="#home"     class="nav-link active">Home</a>
+      <a href="#about"    class="nav-link">About</a>
+      <a href="#skills"   class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact"  class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ========== HOME SECTION ========== -->
+    <section class="home" id="home" aria-label="Introduction">
+      <div class="home-content">
+        <p class="home-greeting animate-slide-right" style="--delay: 0.1s">Hello, it's me!</p>
+        <h1 class="animate-slide-right" style="--delay: 0.2s">Kenu Añonuevo</h1>
+        <h2 class="animate-slide-right" style="--delay: 0.3s">
+          And I'm a future <span class="typed-text" aria-live="polite"></span>
+        </h2>
+        <p class="home-description animate-slide-right" style="--delay: 0.4s">
+          A Computer Engineering student from Bicol University,
+          passionate about technology, networks, and building things that matter.
+        </p>
+
+        <div class="home-sci animate-slide-right" style="--delay: 0.5s" role="list" aria-label="Social media links">
+          <a href="https://facebook.com/yourprofile"  target="_blank" rel="noopener noreferrer" aria-label="Facebook"  role="listitem"><i class='bx bxl-facebook' aria-hidden="true"></i></a>
+          <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Instagram" role="listitem"><i class='bx bxl-instagram' aria-hidden="true"></i></a>
+          <a href="https://tiktok.com/@yourprofile"   target="_blank" rel="noopener noreferrer" aria-label="TikTok"    role="listitem"><i class='bx bxl-tiktok' aria-hidden="true"></i></a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" role="listitem"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+        </div>
+
+        <div class="home-cta animate-slide-right" style="--delay: 0.6s">
+          <a href="#about"   class="btn-box btn-primary">More About Me</a>
+          <a href="CV_Añonuevo_Kenu.pdf" class="btn-box btn-outline" download aria-label="Download resume PDF">Download CV</a>
+        </div>
+      </div>
+
+      <div class="home-img animate-slide-left" style="--delay: 0.3s" aria-hidden="true">
+        <div class="img-circle">
+          <!-- Replace src with your actual photo -->
+          <img src="Profile.png" alt="Portrait of Kenu Añonuevo" loading="eager" width="350" height="350">
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down" aria-label="Scroll down to About section">
+        <i class='bx bx-chevron-down' aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 class="section-title" id="about-heading">About <span>Me</span></h2>
+
+        <div class="about-content">
+          <div class="about-img reveal">
+            <div class="img-circle">
+              <img src="profile.jpg" alt="Kenu Añonuevo" loading="lazy" width="300" height="300">
+            </div>
+          </div>
+
+          <div class="about-text reveal">
+            <h3>Computer Engineering Student</h3>
+            <p>
+              Hi! I'm <strong>Kenu Añonuevo</strong>, a Computer Engineering student at
+              <strong>Bicol University</strong>. I have a passion for technology, problem-solving,
+              and creating meaningful digital experiences.
+            </p>
+            <p>
+              My interests span across network engineering, programming, and software development.
+              I'm constantly learning and building projects to sharpen my skills and grow as an engineer.
+            </p>
+
+            <div class="about-info">
+              <div class="info-item">
+                <span class="info-label">Name</span>
+                <span class="info-value">Kenu Añonuevo</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">University</span>
+                <span class="info-value">Bicol University</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Course</span>
+                <span class="info-value">Computer Engineering</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location</span>
+                <span class="info-value">Bicol, Philippines</span>
+              </div>
+            </div>
+
+            <a href="resume.pdf" class="btn-box btn-primary" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="skills section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 class="section-title" id="skills-heading">My <span>Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I work with</p>
+
+        <div class="skills-grid">
+
+          <article class="skill-category reveal">
+            <h3><i class='bx bx-code-alt' aria-hidden="true"></i> Programming</h3>
+            <ul>
+              <li>
+                <div class="skill-info">
+                  <span>Python</span><span>75%</span>
+                </div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="Python proficiency 75%">
+                  <div class="skill-progress" style="--progress: 75%"></div>
+                </div>
+              </li>
+              <li>
+                <div class="skill-info"><span>C / C++</span><span>60%</span></div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="C/C++ proficiency 60%">
+                  <div class="skill-progress" style="--progress: 60%"></div>
+                </div>
+              </li>
+              <li>
+                <div class="skill-info"><span>JavaScript</span><span>50%</span></div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency 50%">
+                  <div class="skill-progress" style="--progress: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skill-category reveal">
+            <h3><i class='bx bx-globe' aria-hidden="true"></i> Web Development</h3>
+            <ul>
+              <li>
+                <div class="skill-info"><span>HTML & CSS</span><span>80%</span></div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="HTML & CSS proficiency 80%">
+                  <div class="skill-progress" style="--progress: 80%"></div>
+                </div>
+              </li>
+              <li>
+                <div class="skill-info"><span>React (Learning)</span><span>30%</span></div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" aria-label="React proficiency 30%">
+                  <div class="skill-progress" style="--progress: 30%"></div>
+                </div>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skill-category reveal">
+            <h3><i class='bx bx-network-chart' aria-hidden="true"></i> Networking</h3>
+            <ul>
+              <li>
+                <div class="skill-info"><span>Cisco Packet Tracer</span><span>65%</span></div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="Cisco Packet Tracer proficiency 65%">
+                  <div class="skill-progress" style="--progress: 65%"></div>
+                </div>
+              </li>
+              <li>
+                <div class="skill-info"><span>TCP/IP Fundamentals</span><span>70%</span></div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="TCP/IP proficiency 70%">
+                  <div class="skill-progress" style="--progress: 70%"></div>
+                </div>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skill-category reveal">
+            <h3><i class='bx bx-wrench' aria-hidden="true"></i> Tools</h3>
+            <ul>
+              <li>
+                <div class="skill-info"><span>Git & GitHub</span><span>60%</span></div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="Git & GitHub proficiency 60%">
+                  <div class="skill-progress" style="--progress: 60%"></div>
+                </div>
+              </li>
+              <li>
+                <div class="skill-info"><span>Linux Basics</span><span>45%</span></div>
+                <div class="skill-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" aria-label="Linux Basics proficiency 45%">
+                  <div class="skill-progress" style="--progress: 45%"></div>
+                </div>
+              </li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="projects section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 class="section-title" id="projects-heading">My <span>Projects</span></h2>
+        <p class="section-subtitle">Things I've built and am proud of</p>
+
+        <div class="projects-grid">
+
+          <!-- Project Card Template — duplicate and edit for each project -->
+          <article class="project-card reveal" tabindex="0">
+            <div class="project-img" aria-hidden="true">
+              <i class='bx bx-code-block'></i>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Web Development</span>
+              <h3>Personal Portfolio</h3>
+              <p>My first personal portfolio website built with HTML, CSS, and JavaScript. Features smooth animations and a responsive layout.</p>
+              <div class="project-links">
+                <a href="https://github.com/yourprofile/portfolio" target="_blank" rel="noopener noreferrer" aria-label="View portfolio source code on GitHub">
+                  <i class='bx bxl-github' aria-hidden="true"></i> Code
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="View live portfolio demo">
+                  <i class='bx bx-link-external' aria-hidden="true"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" tabindex="0">
+            <div class="project-img" aria-hidden="true">
+              <i class='bx bx-network-chart'></i>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Networking</span>
+              <h3>Network Simulation</h3>
+              <p>A basic network topology simulation using Cisco Packet Tracer, demonstrating VLAN configuration and inter-VLAN routing.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="View network simulation project">
+                  <i class='bx bxl-github' aria-hidden="true"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" tabindex="0">
+            <div class="project-img" aria-hidden="true">
+              <i class='bx bx-bot'></i>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Python</span>
+              <h3>Coming Soon</h3>
+              <p>More projects are in progress. Check back later or visit my GitHub to see what I'm currently working on!</p>
+              <div class="project-links">
+                <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Visit GitHub profile">
+                  <i class='bx bxl-github' aria-hidden="true"></i> GitHub Profile
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 class="section-title" id="contact-heading">Contact <span>Me</span></h2>
+        <p class="section-subtitle">Let's get in touch!</p>
+
+        <div class="contact-content">
+
+          <div class="contact-info reveal">
+            <div class="contact-item">
+              <i class='bx bx-envelope' aria-hidden="true"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:anonuevo.kenu@gmail.com">anonuevo.kenu@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class='bx bx-map' aria-hidden="true"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Bicol, Philippines</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class='bx bxl-linkedin' aria-hidden="true"></i>
+              <div>
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/kenu-a%C3%B1onuevo-10277037a/" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a>
+              </div>
+            </div>
+          </div>
+
+          <!--
+            CONTACT FORM — powered by Formspree (free, no backend needed)
+            Steps:
+              1. Go to https://formspree.io and sign up (free)
+              2. Create a new form — you'll get a unique endpoint URL
+              3. Replace "YOUR_FORMSPREE_ID" below with your actual form ID
+              4. Done! Submissions go straight to your email.
+          -->
+          <form
+            class="contact-form reveal"
+            action="https://formspree.io/f/mbdwqlpy"
+            method="POST"
+            id="contactForm"
+            novalidate
+            aria-label="Contact form"
+          >
+            <div class="form-group">
+              <label for="name">Your Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Doe"
+                required
+                autocomplete="name"
+                aria-required="true"
+              >
+              <span class="form-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email <span aria-hidden="true">*</span></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+                autocomplete="email"
+                aria-required="true"
+              >
+              <span class="form-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What's this about?"
+                autocomplete="off"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span aria-hidden="true">*</span></label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your message here..."
+                required
+                aria-required="true"
+              ></textarea>
+              <span class="form-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <button type="submit" class="btn-box btn-primary" id="submitBtn">
+              <span class="btn-text">Send Message</span>
+              <i class='bx bx-send' aria-hidden="true"></i>
+            </button>
+
+            <div class="form-success" id="formSuccess" role="alert" aria-live="polite" hidden>
+              <i class='bx bx-check-circle' aria-hidden="true"></i>
+              Message sent successfully! I'll get back to you soon.
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Kenu Añonuevo. Built with <span aria-label="love">♥</span> from Bicol.</p>
+      <div class="footer-links" aria-label="Footer social links">
+        <a href="https://github.com/yourprofile"   target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class='bx bxl-github' aria-hidden="true"></i></a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+        <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class='bx bxl-facebook' aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class='bx bx-chevron-up' aria-hidden="true"></i>
+  </a>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
